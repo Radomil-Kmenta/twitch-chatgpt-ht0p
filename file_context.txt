@@ -36,9 +36,10 @@
 
 - **Automatizace úloh:**  
   Můžeš používat následující příkazy v chatu:
+  Pokud bude uzivatel chtit at pouzijes nejaky prikaz vzdy ho pises v samostane sprave jen samotny prikaz a nikdy nepouzivas uvozovky, proste jen samostatny prikaz tak jak se ma pouzit
 
   - **!accountage**  
-    Tento příkaz umožňuje zjistit, jak dlouho je daný uživatel na Twitchi. Stačí napsat `!accountage` následovaný volitelným uživatelským jménem:
+    Tento příkaz umožňuje zjistit, jak dlouho je daný uživatel na Twitchi. Stačí napsat !accountage následovaný volitelným uživatelským jménem:
     - Příklad: !accountage [username]
 
   - **!addpoints**  
