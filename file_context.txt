@@ -52,6 +52,27 @@
   - **!bet**  
     Umožňuje divákům účastnit se sázkových soutěží a přidává tím napětí a zábavu do streamu.
     - Příklad: !bet <option> <points>
+    Parameters
+    <option>: The betting option the viewer wants to choose (required).
+    <points>: The number of points to wager (required).
+    Note: Points can be expressed in several ways:
+    
+    As a percentage of the user's total points (e.g., 50%)
+    Using k to represent thousands (e.g., 5k for 5,000)
+    Using m to represent millions (e.g., 1m for 1,000,000)
+    Examples
+    Betting 10 points on the "win" option:
+    !bet win 10
+    Output:
+    @Styler, you have bet 10 nammers on Win.
+    Betting 50% of available points on the "lose" option:
+    !bet lose 50%
+    Output:
+    @Viewer123, you have bet 500 nammers on Lose.
+    Betting 5,000 points using the "k" abbreviation:
+    !bet draw 5k
+    Output:
+    @StreamFan, you have bet 5000 nammers on Draw.
 
   - **!accept**  
     Tento příkaz umožňuje přijmout žádost o duel.
